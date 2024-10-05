@@ -1,5 +1,73 @@
 body {
-  background-color: #faf8f1;
-  color: #0a1520;
+  background-color: #000000;
+  color: #ffffff;
   font-family: 'Poppins', sans-serif;
+}
+
+.homepage {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  padding-right: 5px
+}
+
+.main-container {
+  width: 35%;
+  margin-top: 200px
+}
+
+.title {
+  font-size: 98px;
+  color: #32a7ff;
+}
+
+
+.tech-stack {
+  /* text-align: center; */
+  margin-bottom: 60px;
+}
+
+.tech-icon {
+  height: 85px;
+  width: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nav {
+  margin-bottom: 60px;
+}
+
+.nav-button {
+  background-color: #cf4550; /* Green */
+  border: none;
+  color: white;
+  padding: 1px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 4px 78px 25px 0px;
+  cursor: pointer;
+  border-radius: 12px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: #32a7ff;
+}
+
+/* .nav-button:active {
+  background-color: #32a7ff;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+} */
+
+.divider {
+  border: 2px solid #cf4550;
+  margin-top: 40px;
 }
