@@ -71,3 +71,66 @@ p {
   border: 2px solid #cf4550;
   margin-top: 40px;
 }
+
+.project-container {
+  width: 35%;
+}
+
+.project-entry {
+  margin-bottom: 50px;
+}
+
+.project-frame{
+  border-top: 1px solid #cf4550;
+  border-bottom: 1px solid #cf4550;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px
+}
+
+.project-info {
+  width: 60%;
+  padding-right: 10px;
+}
+
+.project-tech {
+  padding-top: 20px;
+}
+
+
+.project-tech-icon {
+  height: 45px;
+  width: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.project-image-box {
+  width: 40%
+}
+
+.project-image {
+  width: 100%
+}
+
+.contact-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.contact-logo {
+  height: 65px;
+  width: auto;
+  padding-left: 10px;
+  padding-right: 50px;
+}
+
+.contact-name a {
+  font-size: 30px;
+  color: white;
+}
+
+.contact-name a:hover {
+  color: #32a7ff;
+}
